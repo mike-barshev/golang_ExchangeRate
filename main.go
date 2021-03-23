@@ -75,7 +75,7 @@ func main() {
 				}
 			}
 			fmt.Println(time.Now())
-			time.Sleep(1 * time.Minute)
+			time.Sleep(24 * time.Hour)
 			dailyGET()
 		}
 	}
